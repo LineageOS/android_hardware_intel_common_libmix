@@ -24,6 +24,8 @@
 #include <hardware/gralloc.h>
 #endif
 
+#include <string.h>
+
 #define MAP_ACTION_COPY         0x00000001  //mem copy
 #define MAP_ACTION_ALIGN64      0x00000002  //align 64
 #define MAP_ACTION_COLORCONVERT 0x00000004  //color convert
